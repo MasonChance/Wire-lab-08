@@ -1,0 +1,65 @@
+*{
+  outline: 1px dotted red;
+  box-sizing: border-box;
+}
+/*box-sizing border-box tells sections to subtract their border and padding from their width.  */
+nav{
+  width : 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav img {
+  float : left;
+  margin-top : 15px;
+  margin-right : 30px;
+
+}
+
+nav ul li {
+  float : left;
+  margin-top : 42px;
+  margin-right : 104px;
+
+}
+
+main{
+  margin-top : 30px;
+  margin-left : auto;
+  margin-right : auto;
+  width : 960;
+}
+
+main > ul {
+  margin-top : 30px;
+  margin-right : 30px;
+  overflow : hidden; 
+}
+/*overflow : hidden tells all content including floats to be measured so it can check if it needs to hide them. 
+float the child, overflowhidden the parent;
+*/
+main > ul > li{
+  float : left;
+  margin-right : 30px;
+
+}
+
+main > ul > li:last-child {
+  margin-right:0px;
+}
+
+article p {
+  height: 200px;
+  overflow: auto;
+
+}
+
+button {
+  background: #111;
+  color: #ffff;
+
+}
+
+button:hover {
+  
+}
